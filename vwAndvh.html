@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .box {
+        background-color: red;
+        border: 2px solid black;
+      }
+      .fifty-percent-width {
+        width: 50%;
+      }
+
+      .one-hundred-pixel-width {
+        width: 100px;
+      }
+
+      .parent {
+        width: 400px;
+        border: 2px solid blue;
+      }
+
+      .fifty-vw-width {
+        width: 50vw;
+      }
+      .fifty-vh-height {
+        height: 50vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box fifty-percent-width">50%</div>
+    <div class="box one-hundred-pixel-width">100px</div>
+    <div class="box fifty-vw-width">50 vw</div>
+    <div class="box fifty-vh-height">50 vh</div>
+
+    <br />
+    <div class="parent">
+      <div class="box fifty-percent-width">50%</div>
+      <div class="box one-hundred-pixel-width">100px</div>
+      <div class="box fifty-vw-width">50 vw</div>
+      <div class="box fifty-vh-height">50 vh</div>
+    </div>
+  </body>
+</html>
